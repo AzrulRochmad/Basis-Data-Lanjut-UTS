@@ -1,0 +1,1 @@
+SELECT data_sewa.No_tran,data_sewa.tggl_tran,data_sewa.Nama_penyewa,data_sewa.QTY,data_sewa.tggl_kembali,data_stok.Judul FROM data_sewa JOIN data_stok ON data_sewa.kode_vcd=data_stok.kd_vcd;

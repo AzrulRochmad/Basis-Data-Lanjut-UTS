@@ -1,0 +1,1 @@
+SELECT tarif*15/100 + tarif as 'dinaikkan_15%' from data_jenis_vcd ;

@@ -1,0 +1,1 @@
+select COUNT(Jenis) as 'Jenis_vcd' FROM data_jenis_vcd;

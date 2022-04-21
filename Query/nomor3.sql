@@ -1,0 +1,2 @@
+SELECT tggl_tran,count(No_tran) as "Jumlah"from data_sewa GROUP BY tggl_tran;
+SELECT data_stok.Id_jenis,sum(data_sewa.QTY) as"Jumlah" from data_sewa join data_stok oN data_sewa.kode_vcd=data_stok.kd_vcd GROUP BY data_sewa.kode_vcd; 

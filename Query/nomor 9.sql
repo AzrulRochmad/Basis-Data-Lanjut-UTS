@@ -1,0 +1,1 @@
+select COUNT(Jenis) as 'Jumlah_Jenis_VCD' FROM data_jenis_vcd WHERE ID_Jenis LIKE "%VCD%";

@@ -1,0 +1,1 @@
+SELECT tggl_tran,count(NO_tran) as "Jumlah" from data_sewa GROUP BY tggl_tran;SELECT tggl_tran,count(NO_tran) as "Jumlah" from data_sewa GROUP BY tggl_tran;

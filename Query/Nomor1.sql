@@ -1,0 +1,1 @@
+SELECT MAX(tarif) as "Tertinggi",MIN(tarif) as "Terendah",AVG(tarif) as "rata-rata" from data_jenis_vcd;

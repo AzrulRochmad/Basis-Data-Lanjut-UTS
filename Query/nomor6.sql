@@ -1,0 +1,1 @@
+SELECT data_stok.kd_vcd,data_stok.Judul,data_kategori_vcd.id_kategori,data_kategori_vcd.kategori FROM data_stok LEFT JOIN data_kategori_vcd on data_stok.Id_kategori=data_kategori_vcd.id_kategori;

@@ -1,0 +1,1 @@
+SELECT Id_jenis, count(kd_vcd) as "Jumlah" from data_stok GROUP BY Id_jenis;

@@ -1,0 +1,1 @@
+SELECT data_stok.Id_jenis,data_stok.Id_kategori,data_stok.Judul,data_stok.kd_vcd,data_jenis_vcd.ID_Jenis,data_jenis_vcd.Jenis,data_jenis_vcd.tarif from data_stok RIGHT JOIN data_jenis_vcd on data_stok.Id_jenis=data_jenis_vcd.ID_Jenis;
